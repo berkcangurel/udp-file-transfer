@@ -8,7 +8,7 @@ The receiver must be started first. The sender process needs the ip address and 
 
 ```
 ./receiver [-p port] [-m mode]
-./sender [-p port] [-h hostname] [-f filename] [-m mode]
+./sender [-p receiver_port] [-h receiver_hostname] [-f filename] [-m mode]
 ```
 
 *mode* is a positive integer denoting the **N** value of the Go-Back-N algorithm. Setting mode=1 will therefore transform the algorithm into Stop-and-wait.
